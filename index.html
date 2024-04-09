@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body class="bg-cover bg-center bg-no-repeat" style="background-image: url('photo.jpg'); color: white;">
+
+    <header class="bg-transparent flex px-3 py-1 justify-between items-center z-100">
+        <img src="L.jpg" alt="404 Not Found" class="w-48 h-28">
+        <nav>
+            <a class="text-blue-500 text-lg font-bold no-underline mr-14 transition-all duration-500"  href="#home">home</a>
+            <a class="text-white text-lg font-bold no-underline mr-14 transition-all duration-500 hover:scale-110 hover:text-blue-500" href="#proj">Projects</a>
+            <a class="text-white text-lg font-bold no-underline mr-14 transition-all duration-500 hover:scale-110 hover:text-blue-500" href="#about">about</a>
+            <a class="text-white text-lg font-bold no-underline mr-14 transition-all duration-500 hover:scale-110 hover:text-blue-500" href="#contact" >contact</a>
+        </nav>
+    </header>
+
+
+
+
+    <main>
+        <section class="home py-20 px-24">
+            <div class="max-w-xl">
+                <h1 class="text-5xl font-bold">Hi, I am Rafi Bettaieb</h1>
+                <h3 class="text-4xl font-bold text-blue-500">competitive programmer</h3>
+                <p class="text-3xl">I am 19 years old, I studied at LPA:lycée pilote ariana and I am currently a student at ISI ariana:1 annee licence en computer science</p>
+                <div class="mt-9">
+                    <a href="#contact" class="btn inline-block px-8 py-3 text-lg border-blue-600 border-4 bg-black text-blue-500 font-bold rounded-lg shadow-lg hover:bg-blue-600 hover:text-black  transition duration-700">contact me</a>
+                </div>
+            </div>
+        </section>
+
+        <br><br><br><br><br><br><br><br>
+
+        <section id="about" class="text-center">
+            <div class="lang mb-8">
+                <h3 class="text-3xl font-bold font-serif leading-normal py-3 text-yellow-300">language</h3>
+                <ol class="text-xl ">
+                    <li class="text-xl font-bold font-sans">Arabic</li>
+                    <li class="text-xl font-bold font-sans">french</li>
+                    <li class="text-xl font-bold font-sans">english</li>
+                    <li class="text-xl font-bold font-sans">german</li>
+                </ol>
+            </div>
+
+            <div class="prog mb-8">
+                <h3 class="text-3xl font-bold font-serif leading-normal py-3 text-yellow-300">programming languages</h3>
+                <ul class="text-lg">
+                    <li class="text-xl font-bold font-sans">Python</li>
+                    <li class="text-xl font-bold font-sans">C</li>
+                    <li class="text-xl font-bold font-sans">C++</li>
+                    <li class="text-xl font-bold font-sans">Dart</li>
+                    <li class="text-xl font-bold font-sans">Java</li>
+                    <li class="text-xl font-bold font-sans">HTML</li>
+                    <li class="text-xl font-bold font-sans">CSS</li>
+                </ul>
+            </div>
+
+            <div class="tab">
+                <table class="border-collapse border-4 border-gray-600 mx-auto">
+                    <caption class="text-3xl font-bold font-serif leading-normal py-3 text-yellow-300"><h3>what I want to learn</h3></caption>
+                    <tr class="text-blue-500 text-3xl font-bold">
+                        <th class="border-4 border-gray-600 p-2">devolopment</th>
+                        <th class="border-4 border-gray-600 p-2">programs</th>
+                    </tr>
+                    <tr>
+                        <th class="border-4 border-gray-600 p-2">web development</th>
+                        <th class="border-4 border-gray-600 p-2">Javscript</th>
+                    </tr>
+                    <tr>
+                        <th class="border-4 border-gray-600 p-2">game development</th>
+                        <th class="border-4 border-gray-600 p-2">C# with unity</th>
+                    </tr>
+                    <tr>
+                        <th class="border-4 border-gray-600 p-2">database</th>
+                        <th class="border-4 border-gray-600 p-2">SQL & NoSQL</th>
+                    </tr>
+                    <tr>
+                        <th class="border-4 border-gray-600 p-2">mobile development</th>
+                        <th class="border-4 border-gray-600 p-2">Flutter</th>
+                    </tr>
+                    <tr>
+                        <th class="border-4 border-gray-600 p-2">machine learning</th>
+                        <th class="border-4 border-gray-600 p-2">python</th>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="act mb-8 mx-auto">
+                <h3 class="text-3xl font-bold font-serif leading-normal py-3 text-yellow-300">favorite music</h3>
+                <audio src="OP.mp3" autoplay controls class="mx-auto"></audio>
+                <h3 class="text-3xl font-bold font-serif leading-normal py-3 text-yellow-300">what I like to do</h3>
+                <p class="text-lg mb-10">I love programming, playing football and video games (chess)</p>
+            </div>
+        </section>
+
+        <section id="proj" class="mx-auto">
+            <h1 class="text-3xl font-bold font-serif leading-normal py-3 text-yellow-300 flex justify-center">My Projects</h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4" >
+                <div class="bg-gray-800 p-4 mx-3" >
+                    <div class="w-full h-96">
+                        <img class="w-full h-full" src="restaurant.png" alt="404 Not Found">
+                    </div>
+                    <h5>Gourmet Haven</h5>
+                    <p>restaurant website project developed using HTML and CSS. The website aims to showcase the menu offerings, and reservation options to potential customers. It features a clean and intuitive design, with vibrant imagery </p>
+                </div>
+                <div class="bg-gray-800 p-4 mx-3">
+                    <div class="w-full h-96 ">
+                        <img class="w-full h-full" src="watch.png" alt="404 Not Found">
+                    </div>
+                    <h5>Timeless Watches</h5>
+                    <p>online store project developed using HTML and CSS, dedicated to offering a curated selection of high-quality timepieces for discerning customers. The website is designed to provide an immersive shopping experience, showcasing the beauty and craftsmanship of each watch</p>
+                </div>
+                <div class="bg-gray-800 p-4 mx-3">
+                    <div class="w-full h-96 ">
+                        <img class="w-full h-full" src="countdown.png" alt="">
+                    </div>
+                    <h5>Alarm Clock</h5>
+                    <p>Alarm Clock application developed using Python. It provides users with a convenient way to set alarms, customize alarm tones, and wake up on time  while also offering countdown timer functionality.</p>
+                </div>
+                <div class="bg-gray-800 p-4 mx-3">
+                    <div class="w-full h-96 ">
+                        <img class="w-full h-full" src="Tic_Tac_Toe.png" alt="">
+                    </div>
+                    <h5>Tic-Tac-Toe</h5>
+                    <p>PyTicTacToe represents a fun and engaging implementation of the classic Tic Tac Toe game in Python, offering players of all ages a delightful gaming experience. With its intuitive interface, customizable options, intelligent computer opponents,</p>
+                </div>
+            </div>
+          </section>
+          
+          
+
+        <section id="contact" class=" flex justify-center">
+            <div>
+                <h1 class="text-3xl font-bold font-serif leading-normal px-52 py-3 text-yellow-300">contact me</h1>
+                <form>
+                    <p class="text-lg px-10">my email address : rafii.bettaieb004@gmail.com</p>
+                    <label class="block text-lg">Name :</label>
+                    <input type="text" name="first name" placeholder="Name" required class="block w-full h-12 rounded-md px-4 mt-2 text-black">
+
+                    <label class="block text-lg">Number :</label>
+                    <input type="number" name="number" placeholder="Phone Number" required class="block w-full h-12 rounded-md px-4 mt-2  text-black">
+
+                    <label class="block text-lg">gmail :</label>
+                    <input type="email" name="mail" placeholder="Email" required class="block w-full h-12 rounded-md px-4 mt-2  text-black">
+
+                    <label class="block text-lg">Birth Date :</label>
+                    <input type="date" name="birthday" placeholder="Birthday" class="block w-full h-12 rounded-md px-4 mt-2  text-black">
+
+                    <label class="block text-lg">Password :</label>
+                    <input type="password" name="password" placeholder="Password" required class="block w-full h-12 rounded-md px-4 mt-2  text-black">
+
+                    <textarea name="" id="txt" cols="30" rows="10" placeholder="enter your comment" class="block w-full rounded-md px-4 mt-2  text-black"></textarea>
+
+                    <input type="submit" value="Send" class="btn inline-block w-16 mx-64 py-3 bg-blue-500 text-white font-bold rounded-lg shadow-lg hover:bg-blue-600 transition duration-300 mt-4">
+                </form>
+                <div class="icons flex justify-center mt-4 pt-3">
+                    <a href="https://www.linkedin.com/in/rafi-bettaieb-076771299/" target="_blank" class=" mx-2 icons inline-flex w-12 h-12 bg-transparent border-2 border-blue-500 rounded-full text-blue-500 text-lg items-center justify-center"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://www.youtube.com/" target="_blank" class=" mx-2 icons inline-flex w-12 h-12 bg-transparent border-2 border-blue-500 rounded-full text-blue-500 text-lg items-center justify-center"><i class='bx bxl-youtube'></i></a>
+                    <a href="https://twitter.com/home" target="_blank" class=" mx-2 icons inline-flex w-12 h-12 bg-transparent border-2 border-blue-500 rounded-full text-blue-500 text-lg items-center justify-center"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-10 text-white text-center">
+        <p>&copy; 2024 My Portfolio Website. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
